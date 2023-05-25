@@ -287,17 +287,17 @@
                 <p>Vous pouvez me contacter via ce formulaire.</p>
             </div>
         </div>
-        <form method="post" action="contact.php" class="form">
+        <form method="post" action="https://formsubmit.co/aissatoudiallobd@gmail.com" class="form">
             <label for="firsname">
-                <input type="text" name="firsname" id="firsname" placeholder="Nom"/>
+                <input type="text" name="firsname" id="firsname" placeholder="Nom" required/>
             </label>
             <label for="lastname">
-                <input type="text" name="lastname" id="lastname" placeholder="Prenom"/>
+                <input type="text" name="lastname" id="lastname" placeholder="Prenom" required/>
             </label>
             <label for="lastname">
-                <input type="mail" name="mail" id="mail" placeholder="exemple@gmail.com"/>
+                <input type="mail" name="mail" id="mail" placeholder="exemple@gmail.com" required/>
             </label>
-            <textarea name="message" id="message" placeholder="Message"></textarea>
+            <textarea name="message" id="message" placeholder="Message" required></textarea>
             <input class="btn" type="submit" value="Envoyer"/>
         </form>
     </section>
