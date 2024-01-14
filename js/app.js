@@ -127,8 +127,5 @@ const observerIntersectionAnimation = () =>{
     });
 }
 observerIntersectionAnimation();
-
-
-
-
+	
 
